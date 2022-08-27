@@ -1,11 +1,82 @@
 ASSIGNMENT-1
-https://colab.research.google.com/drive/1jxHYlK6CIVwbdnKsAthZXQeS6WsT2VpV?usp=sharing
+
+set1={ "a","b","c","d"}
+set2={"A","B","C","D","E"}
+set3={"hello","welcome","home","a","A"}
+set4=set1|set2
+set5=set3&set4
+set6=set4-set5
+set7=set5^set6
+
+x=set7<=set6
+y=set3>=set4
+print(x)
+print(y)
+print(x==y)
+print(x!=y)
+
+
+fib=set((1,1,2,3,5,8,13))
+prime=set((2,3,5,7,11,13))
+fib|prime
+fib&prime
+print(fib)
+print(prime)
+print(fib-prime)
+print(fib^prime)
+print(fib<=prime)
+print(fib>=prime)
+print(fib!=prime)
+print(fib==prime)
+
 
 ASSIGNMENT-2
-https://colab.research.google.com/drive/1n2kU7SkHOcob1lnosgjblUc7556B_xRJ?usp=sharing
 
-ASSIGNMENT-3
-https://colab.research.google.com/drive/1B5bcxNvmmwHhggGfuDvUAIDEYslPw9Qt?usp=sharing
 
-ASSSIGNMENT-4
-https://colab.research.google.com/drive/1a3_TK0fPoWyoN2VW5QeuVhAzUugWi5aT?usp=sharing
+  x=int(input("Enter the first value :"))
+  y=int(input("Enter the second value :"))
+  z=input("Enter the ALO")
+  if z == "+":
+     print(x + y)
+  elif z=="-" :
+     print(x - y)
+  elif z == "*":
+     print(x * y)
+  elif z == "/":
+     print(x/y)
+
+  
+  ASSIGNMENT-3
+  
+  myfile=open("file.txt","r+")
+  print(myfile.read())
+  myfile=open("file.txt","a+")
+  myfile.write("\n this is written by the programmer")
+  myfile=open("file.txt","r+")
+  print(myfile.read())
+  myfile=open("file.txt","w+")
+  myfile.write("this is written by the user")
+  myfile=open("file.txt","r+")
+  print(myfile.read())
+  
+  ASSIGNMENT-4
+  
+ x=[45,55,66,77,10,11,999,989] 
+ x.sort()
+ print("list in ascending order: ",x)
+ x.sort(reverse=True) 
+ print("List in Descending Order: ", x)
+ 
+ ASSIGNMENT-5
+ 
+ tables=(lambda x=x:x*3 for x in range(1,11))
+ for y in tables:
+   print(y()) 
+
+
+ 
+
+
+
+
+
