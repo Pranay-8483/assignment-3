@@ -72,6 +72,20 @@ ASSIGNMENT-2
  tables=(lambda x=x:x*3 for x in range(1,11))
  for y in tables:
    print(y()) 
+   
+   
+   ASSIGNMENT-6
+   
+   def data(student,*a,**b):
+  print(student)
+  for rollno in a:
+    print(rollno)
+  for sub in b:
+    print(sub,b[sub])
+data("LUCKY",123,143,116,114,"py=90","HTML=99")
+
+
+
 
 
  
